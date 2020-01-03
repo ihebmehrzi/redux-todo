@@ -53,12 +53,12 @@ class Todo extends Component {
       
         {this.props.todos.map(el => (
           <div className="scnd">
-            <h1 className={el.complete ? "Complete" : "Undo"}>{el.text}</h1>
+            
             <button  className="delete-btn" onClick={() => this.complete(el.id)}>
               {el.complete ? "undo" : "complete"}
             </button>
             <button className="delete-btn2" onClick={() => this.delete(el.id)}>delete</button>
-
+            <h1 className={el.complete ? "Complete" : "Undo"}>{el.text}</h1>
             </div>
        
          
