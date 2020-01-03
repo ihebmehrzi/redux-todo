@@ -1,38 +1,87 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+  
+.Complete {
+    text-decoration: line-through;
   }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
 
-.App-link {
-  color: #61dafb;
-}
+  
+.jumbotron{
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+    background-color:khaki!important;
   }
-  to {
-    transform: rotate(360deg);
+  
+  
+  .form-control-lg {
+    width: 100%!important;
+    margin-bottom: 20px!important;
   }
-}
+  .display-4 {
+    text-align: end!important;
+  }
+  p {
+    text-align: end!important;
+  
+  }
+  
+  h2{
+    text-align: center;
+    color: cadetblue;
+  }
+  
+  .delete-btn{
+    background-color: red; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+  
+  }
+  
+  .delete-btn2
+  {
+    
+    background-color: green; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-bottom: 10px;
+  
+    
+  }
+  
+  
+  .div-a
+  {
+    display: flex;
+    justify-content: space-around ;
+  }
+  
+  h5{
+    text-align: end;
+    margin-left: 50px;
+  
+  }
+  
+  .txt{
+    color: blue;
+    text-align: center;
+    margin-left: 50px;
+    font-size: 30px;
+  }
+  
+  .scnd{
+    display: flex;
+  }
+  
+  .hashed{
+   text-decoration: line-through; 
+  }
